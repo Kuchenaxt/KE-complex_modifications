@@ -23,10 +23,10 @@ def main
     'maintainers' => ['tekezo'],
     'rules' => [
       {
-        'description' => 'Launcher Mode v4 (rev 14)',
+        'description' => 'Launcher Mode v4 (rev 18)',
         'available_since' => '13.1.4',
         'manipulators' => [
-          generate_launcher_mode('1', [], [{ 'shell_command' => "open -a 'Xcode.app'" }]),
+          generate_launcher_mode('1', [], [{ 'shell_command' => 'open "$(dirname $(dirname $(xcode-select -p)))"' }]),
           generate_launcher_mode('3', [], [{ 'shell_command' => "open -a 'Firefox.app'" }]),
           generate_launcher_mode('5', [], [{ 'shell_command' => "open -a 'Microsoft Word.app'" }]),
           generate_launcher_mode('6', [], [{ 'shell_command' => "open -a 'Microsoft Excel.app'" }]),
@@ -34,15 +34,14 @@ def main
           generate_launcher_mode('c', [], [{ 'shell_command' => "open -a 'Google Chrome.app'" }]),
           generate_launcher_mode('e', [], [{ 'shell_command' => "open -a 'Visual Studio Code.app'" }]),
           generate_launcher_mode('f', [], [{ 'shell_command' => "open -a 'Finder.app'" }]),
-          generate_launcher_mode('i', [], [{ 'shell_command' => "open -a 'The Lounge.app'" }]),
           generate_launcher_mode('m', [], [{ 'shell_command' => "open -a 'Thunderbird.app'" }]),
           generate_launcher_mode('q', [], [{ 'shell_command' => "open -a 'Dictionary.app'" }]),
           generate_launcher_mode('s', [], [{ 'shell_command' => "open -a 'Safari.app'" }]),
-          generate_launcher_mode('t', [], [{ 'shell_command' => "open -a 'iTerm.app'" }]),
+          generate_launcher_mode('t', [], [{ 'shell_command' => "open -a 'Terminal.app'" }]),
           generate_launcher_mode('v', [], [{ 'shell_command' => "open -a 'Slack.app'" }]),
 
-          generate_launcher_mode('tab', [], [{ 'key_code' => 'mission_control' }]),
-          generate_launcher_mode('spacebar', [], [{ 'apple_vendor_keyboard_key_code' => 'spotlight' }]),
+          generate_launcher_mode('left_control', [], [{ 'key_code' => 'mission_control' }]),
+          generate_launcher_mode('left_shift', [], [{ 'apple_vendor_keyboard_key_code' => 'spotlight' }]),
         ].flatten,
       },
     ],

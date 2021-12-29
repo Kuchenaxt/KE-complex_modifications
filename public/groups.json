@@ -5,6 +5,12 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/disable_wifidiagnostics.json"
+        },
+        {
+          "path": "json/personal_bbeerr_rk61.json"
+        },
+        {
           "path": "json/ctrl_to_hyper.json"
         },
         {
@@ -114,6 +120,26 @@
         },
         {
           "path": "json/capslock_shift_copy_paste.json"
+        },
+        {
+          "path": "json/option-tab_to_command-tab.json",
+          "extra_description_path": "extra_descriptions/option-tab_to_command-tab.json.html"
+        },
+        {
+          "path": "json/left_command_insert_delete_home_end_pageup_pagedown_to_media.json"
+        },
+        {
+          "path": "json/backspace_enhancements.json"
+        },
+        {
+          "path": "json/caps_lock_tapped_caps_held_cmd.json"
+        },
+        {
+          "path": "json/right_shift_to_switch_language.json"
+        },
+        {
+          "path": "json/fn_wasdqerf.json",
+          "extra_description_path": "extra_descriptions/fn_wasdqerf.html"
         }
       ]
     },
@@ -122,6 +148,9 @@
       "id": "emulation-modes",
       "files": [
         {
+          "path": "json/hhkb-like-arrows-and-page-control.json"
+        },
+        {
           "path": "json/caps_lock_enhancement.json",
           "extra_description_path": "extra_descriptions/caps_lock_enhancement.json.html"
         },
@@ -129,8 +158,18 @@
           "path": "json/caps_tenkey_mode.json"
         },
         {
-          "path": "json/capslock-plus.json",
-          "extra_description_path": "extra_descriptions/capslock-plus.json.html"
+          "path": "json/capslock-x.json"
+        },
+        {
+          "path": "json/capslock-plus.json"
+        },
+        {
+          "path": "json/capslock_vim_movements.json",
+          "extra_description_path": "extra_descriptions/capslock_vim_movements.html"
+        },
+        {
+          "path": "json/capslock_wasd_arrows.json",
+          "extra_description_path": "extra_descriptions/capslock_wasd_arrows.html"
         },
         {
           "path": "json/comfortable_text_navigation.json",
@@ -232,6 +271,10 @@
           "extra_description_path": "extra_descriptions/numeric_keypad.json.html"
         },
         {
+          "path": "json/set_num_lock.json",
+          "extra_description_path": "extra_descriptions/set_num_lock.html"
+        },
+        {
           "path": "json/pc_shortcuts.json"
         },
         {
@@ -297,6 +340,16 @@
         {
           "path": "json/windows_shortcuts_on_macos.json",
           "extra_description_path": "extra_descriptions/windows_shortcuts_on_macos.json.html"
+        },
+        {
+          "path": "json/capslock-arrows-and-text-selection.json"
+        },
+        {
+          "path": "json/Vi_and_other_workman.json",
+          "extra_description_path": "extra_descriptions/Vi_and_other_Workman.html"
+        },
+        {
+          "path": "json/right_option_fn.json"
         }
       ]
     },
@@ -304,6 +357,9 @@
       "name": "Application Specific",
       "id": "application-specific",
       "files": [
+        {
+          "path": "json/obsidian_emacs_vim-insert.json"
+        },
         {
           "path": "json/Sync_SystemVolume_to_Music.json"
         },
@@ -457,6 +513,25 @@
         },
         {
           "path": "json/shift-enter-fish-shell-autocomplete.json"
+        },
+        {
+          "path": "json/clickup.json"
+        },
+        {
+          "path": "json/dictation-to-mutify.json"
+        },
+        {
+          "path": "json/browser-rshift-enter-disable.json"
+        },
+        {
+          "path": "json/jetbrains_rider_fn.json"
+        },
+        {
+          "path": "json/finder_improved_navigation.json"
+        },
+        {
+          "path": "json/music_keyboard_controls.json",
+          "extra_description_path": "extra_descriptions/music_keyboard_controls.html"
         }
       ]
     },
@@ -513,10 +588,6 @@
           "extra_description_path": "extra_descriptions/cmd_return.json.html"
         },
         {
-          "path": "json/accute_accent_deadkey_azerty.json",
-          "extra_description_path": "extra_descriptions/accute_accent_deadkey_azerty.json.html"
-        },
-        {
           "path": "json/DvorakLeft.json"
         },
         {
@@ -549,6 +620,9 @@
         {
           "path": "json/caps_lock_toggle_chinese_english.json",
           "extra_description_path": "extra_descriptions/caps_lock_toggle_chinese_english.html"
+        },
+        {
+          "path": "json/left_option_to_chinese.json"
         },
         {
           "path": "json/japanese.json"
@@ -598,11 +672,18 @@
           "extra_description_path": "extra_descriptions/swiss_pc_shortcuts.json.html"
         },
         {
+          "path": "json/for_korean_keyboard.json",
+          "extra_description_path": "extra_descriptions/for_korean_keyboard.html"
+        },
+        {
           "path": "json/korean_pc.json"
         },
         {
           "path": "json/ChangeInputSourceDirectlyForKorean.json",
           "extra_description_path": "extra_descriptions/ChangeInputSourceDirectlyForKorean.html"
+        },
+        {
+          "path": "json/caps_lock_toggle_korean_english_include_parallels.json"
         },
         {
           "path": "json/korean_won_to_backtick.json"
@@ -638,6 +719,16 @@
         {
           "path": "json/cmd-opt-en-ru-uk.json",
           "extra_description_path": "extra_descriptions/cmd-opt-en-ru-uk.html"
+        },
+        {
+          "path": "json/rdp-japanese-us.json",
+          "extra_description_path": "extra_descriptions/rdp-japanese-us.json.html"
+        },
+        {
+          "path": "json/russian-keyboard-remapping.json"
+        },
+        {
+          "path": "json/kanafn.json"
         }
       ]
     },
@@ -841,6 +932,30 @@
         },
         {
           "path": "json/right_command_take_screenshot.json"
+        },
+        {
+          "path": "json/command-LR_and_esc_to_command_and_backquote.json"
+        },
+        {
+          "path": "json/f6_shutdown_dialog.json"
+        },
+        {
+          "path": "json/map_loption_ne_to_downup.json"
+        },
+        {
+          "path": "json/gregrcp.json"
+        },
+        {
+          "path": "json/nyankko.json"
+        },
+        {
+          "path": "json/mouse_button4_back_mouse_button5_forward.json"
+        },
+        {
+          "path": "json/open_control_center_with_f8.json"
+        },
+        {
+          "path": "json/tab_hold_hyper.json"
         }
       ]
     },
@@ -931,8 +1046,20 @@
           "path": "json/mouse_buttons_4_5_desktop_switch.json"
         },
         {
+          "path": "json/mouse_345_mac_desktop_switcher.json"
+        },
+        {
           "path": "json/r_cmd_to_l_ctrl_and_space.json",
           "extra_description_path": "extra_descriptions/r_cmd_to_l_ctrl_and_space.json.html"
+        },
+        {
+          "path": "json/open_terminal_window.json"
+        },
+        {
+          "path": "json/keyboard-brightness.json"
+        },
+        {
+          "path": "json/keybrightness_F5.json"
         }
       ]
     },
@@ -948,6 +1075,9 @@
         },
         {
           "path": "json/typematrix_bepo_cut_copy_paste_fn_shortcuts.json"
+        },
+        {
+          "path": "json/typematrix_cut_copy_past_fn_keys.json"
         },
         {
           "path": "json/r400.json"
@@ -1001,6 +1131,14 @@
         {
           "path": "json/yubikey_disable_keystrokes.json",
           "extra_description_path": "extra_descriptions/yubikey_disable_keystrokes.json.rb.html"
+        },
+        {
+          "path": "json/Microsoft_Natural_keyboard_4000.json",
+          "extra_description_path": "extra_descriptions/Microsoft_Natural_keyboard_4000.html"
+        },
+        {
+          "path": "json/logitech-g502-hero-shortcuts.json",
+          "extra_description_path": "extra_descriptions/logitech-g502-hero-shortcuts.json.html"
         }
       ]
     },
@@ -1108,6 +1246,9 @@
         },
         {
           "path": "json/emsspree-personal-rules.json"
+        },
+        {
+          "path": "json/personal_javier_monton.json"
         }
       ]
     },
@@ -1214,20 +1355,15 @@
       ]
     },
     {
-      "name": "Vi and other (Workman keyboard layout)",
-      "id": "Vi and other (Workman keyboard layout)",
-      "files": [
-        {
-          "path": "json/Vi_and_other_workman.json",
-          "extra_description_path": "extra_descriptions/Vi_and_other_Workman.html"
-        }
-      ]
+      "name": "Others",
+      "id": "others",
+      "files": []
     }
   ],
   "example": [
     {
-      "name": "Conditions",
-      "id": "conditions",
+      "name": "Examples: Conditions",
+      "id": "example-conditions",
       "files": [
         {
           "path": "json/example_device.json"
@@ -1243,40 +1379,15 @@
         },
         {
           "path": "json/example_japanese_nicola.json"
-        },
-        {
-          "path": "json/mouse_button4_back_mouse_button5_forward.json"
-        },
-        {
-          "path": "json/nyankko.json"
-        },
-        {
-          "path": "json/right_shift_to_switch_language.json"
-        },
-        {
-          "path": "json/caps_lock_tapped_caps_held_cmd.json"
         }
       ]
     },
     {
-      "name": "Logitech G502 Hero",
-      "id": "Logitech G502 Hero",
-      "files": [
-        {
-          "path": "json/logitech-g502-hero-shortcuts.json",
-          "extra_description_path": "extra_descriptions/logitech-g502-hero-shortcuts.json.html"
-        }
-      ]
-    },
-    {
-      "name": "Others",
-      "id": "others",
+      "name": "Examples: Others",
+      "id": "example-others",
       "files": [
         {
           "path": "json/example_halt.json"
-        },
-        {
-          "path": "json/gregrcp.json"
         }
       ]
     }

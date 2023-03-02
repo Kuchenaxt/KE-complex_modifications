@@ -130,7 +130,7 @@
                     "right_option",
                     "right_command",
                 ],
-                conditions: [$is_layout_active],
+                conditions: [$is_layout_active, {"type" => "frontmost_application_unless", "bundle_identifiers" => ['^com\.microsoft\.rdc']}],
                 from_optional_modifiers: ["any"]
             ) + [mod_4_key].map { |from_key|
                 {

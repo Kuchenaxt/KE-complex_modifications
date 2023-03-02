@@ -39,6 +39,12 @@
                   "input_source_id": "^org\\.unknown\\.keylayout\\.DeutschADNW$"
                 }
               ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc"
+              ]
             }
           ]
         },
@@ -77,6 +83,12 @@
                   "input_source_id": "^org\\.unknown\\.keylayout\\.DeutschADNW$"
                 }
               ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc"
+              ]
             }
           ]
         },
@@ -114,6 +126,12 @@
                 {
                   "input_source_id": "^org\\.unknown\\.keylayout\\.DeutschADNW$"
                 }
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc"
               ]
             }
           ]
@@ -4023,6 +4041,12 @@
                   "input_source_id": "^org\\.unknown\\.keylayout\\.DeutschADNW$"
                 }
               ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc"
+              ]
             }
           ]
         },
@@ -4061,6 +4085,12 @@
                   "input_source_id": "^org\\.unknown\\.keylayout\\.DeutschADNW$"
                 }
               ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc"
+              ]
             }
           ]
         },
@@ -4098,6 +4128,12 @@
                 {
                   "input_source_id": "^org\\.unknown\\.keylayout\\.DeutschADNW$"
                 }
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc"
               ]
             }
           ]
@@ -7386,6 +7422,12 @@
                   "input_source_id": "^org\\.unknown\\.keylayout\\.DeutschADNW$"
                 }
               ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc"
+              ]
             }
           ]
         },
@@ -7424,6 +7466,12 @@
                   "input_source_id": "^org\\.unknown\\.keylayout\\.DeutschADNW$"
                 }
               ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc"
+              ]
             }
           ]
         },
@@ -7461,6 +7509,12 @@
                 {
                   "input_source_id": "^org\\.unknown\\.keylayout\\.DeutschADNW$"
                 }
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc"
               ]
             }
           ]
